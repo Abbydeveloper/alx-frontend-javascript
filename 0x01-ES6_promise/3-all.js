@@ -8,4 +8,4 @@ export default async function handleProfileSignup() {
   } catch (error) {
     console.log('Signup system offline');
   }
-};
+}
