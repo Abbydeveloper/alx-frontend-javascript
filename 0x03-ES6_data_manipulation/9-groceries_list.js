@@ -1,4 +1,4 @@
-export defalt function groceriesList() {
+export default function groceriesList() {
   return new Map(
     [
       ['Apples', 10],
