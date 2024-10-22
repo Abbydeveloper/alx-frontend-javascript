@@ -1,6 +1,6 @@
 import HolbertonCourse from "./2-hbtn_course.js";
 
-const c1 = new HolbertonCourse("6", 10, ["Bob", "Jane"])
+const c1 = new HolbertonCourse("Timer", 10, ["Bob", "Jane"])
 console.log(c1.name);
 c1.name = "Python 101";
 console.log(c1);
