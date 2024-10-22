@@ -6,7 +6,7 @@ export default class HolbertonCourse {
     if (typeof length !== 'number') {
       throw new TypeError('Length must be a number');
     }
-    if (!Array.isArray(students)){
+    if (!Array.isArray(students)) {
       throw new TypeError('Students must be an Array');
     }
 
