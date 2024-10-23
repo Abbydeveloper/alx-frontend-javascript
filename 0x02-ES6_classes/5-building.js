@@ -1,7 +1,7 @@
 export default class Building {
   constructor(sqft) {
     this._sqft = sqft;
-    this.evacuationWarningMessage();
+    Building.evacuationWarningMessage();
   }
 
   static evacuationWarningMessage() {
