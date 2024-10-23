@@ -5,10 +5,10 @@ export default class HolbertonClass {
   }
 
   get [Symbol.toStringTag]() {
-    return `$this._size`;
+    return `${this._size}`;
   }
 
   get [Symbol.toNumberTag]() {
-    return `$this._location`;
+    return `${this._location}`;
   }
 }
