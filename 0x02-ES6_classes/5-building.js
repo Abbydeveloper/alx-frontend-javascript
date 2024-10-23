@@ -13,7 +13,7 @@ export default class Building {
   }
 
   evacuationWarningMessage() {
-    if (!this.constructor.hasOwnProperty(evacuationWarningMessage)) {
+    if (!this.constructor.hasOwnProperty('evacuationWarningMessage')) {
       throw new Error('Class extending Building must override evacuationWarningMessage');
     }
   }
