@@ -13,13 +13,13 @@ const first = {
 };
 
 const second = {
-  firstname: "Lagbaja",
+  firstName: "Lagbaja",
   lastName: "Tamedo",
   age: 30,
   location: "Canada",
 };
 
-studentsList = [ first, second ];
+const studentsList: Student[] = [ first, second ];
 
 const renderTable = function () {
   const tab = document.createElement("table");
@@ -28,7 +28,7 @@ const renderTable = function () {
     const firstcell = row.insertCell();
     firstcell.innerHTML = student.firstName;
     const locationcell = row.insertCell();
-    locationCell.innerHTML = student.location;
+    locationcell.innerHTML = student.location;
   });
   document.body.appendChild(tab); 
 };
